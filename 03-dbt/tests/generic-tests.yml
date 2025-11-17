@@ -1,0 +1,6 @@
+version: 2
+
+tests:
+  - name: not_null_product_id
+    columns:
+      - product_id
