@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS silver.tb_customers (
+CREATE TABLE IF NOT EXISTS slr_tb_customers (
     id_customer INT,
     name_customer STRING,
     des_email STRING,
@@ -8,5 +8,4 @@ CREATE TABLE IF NOT EXISTS silver.tb_customers (
     des_country STRING,
     dat_signup DATE
 )
-USING DELTA
-LOCATION 'dbfs:/Volumes/Study/silver/tb_customers';
+USING DELTA;
